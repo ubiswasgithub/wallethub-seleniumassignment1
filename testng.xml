@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WalletHub Test Suite Assignment 1">
+<parameter name="browser" value="chrome"></parameter>
+<listeners>
+		<!-- <listener class-name="mt.siteportal.utils.tools.ExtentReporterNG" /> 
+		<listener class-name="ru.yandex.qatools.allure.testng.AllureTestListener" />-->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+</listeners>
+  <test  name=" Facebook Login Test">
+    <classes>
+  <!--     <class name="ub.wallethub.tests.FacebookLoginTest"/> -->
+       
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name=" Facebook Post message Test">
+    <classes>
+      <class name="ub.wallethub.tests.PostMessageTest"/>
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
