@@ -14,8 +14,8 @@ import org.testng.annotations.AfterClass;
 
 public class AbstractTest {
 
-	public static String facebookUsername = "uttam29@yahoo.com";
-	public static String facebookPassword = "uttamcsedu2935829";
+	public static String facebookUsername = "";
+	public static String facebookPassword = "";
 
 	//
 	// public static String facebookUsername ;
